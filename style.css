@@ -481,7 +481,7 @@ table {
 }
 
 .icons_cards>img {
-    width: 50%;
+    width: 55%;
     height: 28%;
     background-color: #C1F7D5;
     background-size: cover;
@@ -1068,15 +1068,22 @@ hr{
         margin-top: -1.5%;
     }
 
-    .icons_cards {
-        width: 88%;
-        height: 75%;
+    .icons_cards{
+        width: 85%;
+        height: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10%;
         margin-top: 40%;
         border-radius: 100%;
+        
+    }
+    .icons_cards > img{
+        width: 50%;
+        height:30%;
+        
+        
     }
 
 
