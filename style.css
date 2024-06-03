@@ -248,6 +248,7 @@ table {
     padding: 0% 3%;
     margin-bottom: 10%;
     font-weight: 800;
+    line-height: 1.8rem;
 
 }
 
@@ -260,6 +261,7 @@ table {
     margin-left: 15%;
     margin-right: 15%;
     color: black;
+    line-height: 1.5rem;
 }
 
 .the_issue_button {
@@ -684,13 +686,14 @@ table {
     font-family: sans-serif;
     text-align: center;
     padding: 10% 5% 10% 3%;
+    line-height: 2.5rem;
 }
 
 .subscribe_container_buttons {
     display: grid;
     grid-template-columns: 60% 40%;
-    margin: 5% 5% 5% 5%;
-    grid-column-gap: 2%;
+    margin: 5% 7% 5% 7%;
+    grid-column-gap: 5%;
 }
 
 .subscribe_container_buttons>input {
@@ -717,8 +720,11 @@ table {
     gap: 5%;
     grid-row-gap: 25%;
 
-}
 
+}
+hr{
+    opacity: 0;
+}
 .about_green>p {
     font-size: 1.5rem;
     font-weight: 700;
@@ -730,6 +736,7 @@ table {
     font-size: 1.1rem;
     font-family: sans-serif;
 }
+
 
 .contact_us>address {
     line-height: 1.5rem;
