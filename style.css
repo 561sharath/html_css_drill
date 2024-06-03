@@ -1,0 +1,1379 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: flood-std;
+    src: url(./fonts/Flood\ Std\ Regular.otf);
+}
+
+
+/* header container div */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-container {
+    background-color: white;
+
+}
+
+.main-heading {
+
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.anchor-list {
+    font-size: 1.2rem;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0rem;
+    justify-content: center;
+}
+
+.anchor-list>a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.donate-button {
+
+    padding: 0.7rem 7rem 0.7rem 7rem;
+    background-color: #C1F7D5;
+    color: #354463;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    margin: 5% 0%;
+
+
+}
+
+
+
+
+/* second divs start */
+
+.annie_image_card {
+    background-image: url(home/annie-spratt-135307-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* background-position-y:-20px ; */
+
+}
+
+.caption_box {
+    font-family: flood-std;
+    font-size: 3.5rem;
+    /* font-weight: 700; */
+    color: white;
+    margin-top: 17%;
+    margin-left: 7%;
+}
+
+.the_issue_box {
+
+
+    background-color: white;
+    /* margin: 8%; */
+    margin: 30% 5% 10% 5%;
+    padding-bottom: 15%;
+
+}
+
+.the_issue_box>p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 15%;
+    padding: 0% 3%;
+    margin-bottom: 10%;
+    font-weight: 800;
+
+}
+
+.the_issue_box>a {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+}
+
+.the_issue_button {
+    padding: 3.5% 10%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 29%;
+    margin-top: -5%;
+}
+
+
+
+
+/* third section starts here */
+
+.take_actions_card {
+    background-color: #C1F7D5;
+}
+
+.take_actions_heading {
+    padding: 4% 12%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    position: absolute;
+    left: 25%;
+    margin-top: -5%;
+}
+
+.take_actions_card_content {
+
+    padding: 5%;
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.take_actions_card_content>div {
+    padding: 10%;
+    font-size: 1.1rem;
+}
+
+.take_actions_card_content>div>h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+
+}
+
+.take_actions_card_content>div>p {
+    line-height: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+
+/* fourth section starts here */
+
+.what_to_do_card {
+
+    background-color: #354463;
+    height: 100%;
+    padding-bottom: 1%;
+
+
+}
+
+.what_to_do_card_button>h1 {
+
+    padding: 3% 10%;
+    background-color: white;
+    display: inline-block;
+    margin: 12% 25% 5% 25%;
+    font-family: sans-serif;
+}
+
+.what_to_do_card_button>p {
+    text-align: center;
+    margin: 0% 5% 18% 5%;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+.what_to_do_card_container {
+    margin: 10% 7% 15% 7%;
+    background-color: white;
+    padding: 5% 0%;
+}
+
+
+
+.tree_planting>p {
+    text-align: center;
+    margin: 0% 10%;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+}
+
+.tree_planting>h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.tree_planting>img {
+    width: 75%;
+    height: 20%;
+    margin: -14% 0% 10% 13%;
+
+}
+
+.tree_planting_button {
+
+    padding: 4% 15% 4% 15%;
+    background-color: #C1F7D5;
+    color: #354463;
+    border: none;
+    margin: 5% 20% 5% 25%;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* section 5th starts here */
+
+.did_you_know_card {
+    background-image: url(home/did-you-know-background.png);
+    /* background-position: left center; */
+    /* background-size: 100% 100%; */
+    background-size: 280% 130%;
+    padding-bottom: 1%;
+    /* background-repeat: no-repeat; */
+    background-position-y: -400px;
+
+
+
+}
+
+.did_you_know_card_head>h3 {
+    font-family: flood-std;
+    font-size: 3.5rem;
+    color: white;
+    /* font-family: sans-serif; */
+    /* font-weight: 800; */
+    padding: 15% 0% 15% 7%;
+}
+
+.take_action_today_button>button {
+    background-color: #C1F7D5;
+    color: #354463;
+    border: 0;
+    padding: 4% 7% 4% 7%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+
+.did_you_know_container {
+
+    background-color: white;
+    margin: 5%;
+}
+
+.cards_1_container {
+    padding: 10%;
+}
+
+.cards_1_container>h3 {
+    margin-top: 10%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cards_1_container>p {
+    margin-top: 5%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+}
+
+.did_you_know_card_button {
+    background-color: black;
+    color: white;
+    padding: 3% 10%;
+    position: absolute;
+    left: 25%;
+    margin-top: -5%;
+}
+
+.did_you_know_card_innerdiv {
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+}
+
+.icons_cards {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* background-color: #C1F7D5; */
+}
+
+.icons_cards>img {
+    width: 50%;
+    height: 28%;
+    background-color: #C1F7D5;
+    background-size: cover;
+    padding: 19% 11%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* 6th container starts here */
+
+.stories_card {
+    margin: 12% 5% 5% 5%;
+}
+
+.stories_card>img {
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+}
+
+.stories_card>h3 {
+    padding: 4% 15% 4% 15%;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin: 0% 25%;
+
+}
+
+.blue_container {
+
+    background-color: #354463;
+    padding: 15% 10%;
+    margin: 5%;
+}
+
+.content>p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 10%;
+    line-height: 2.5rem;
+    /* line-height: 1.5rem; */
+}
+
+.content>h3 {
+    color: white;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+/* 7th section start here */
+
+.events_container {
+    margin-top: 15%;
+    background-color: #354463;
+    padding-bottom: 10%;
+    /* height: 100%; */
+
+}
+
+.event_header {
+    font-family: flood-std;
+    font-size: 3.5rem;
+    /* font-weight: 800; */
+    color: white;
+    text-align: center;
+    padding: 25% 10% 8% 10%;
+    /* margin-top: 15%; */
+}
+
+.event_card_button {
+
+    padding: 4% 15% 4% 15%;
+    background-color: #C1F7D5;
+    color: #354463;
+    border: none;
+    margin: 5% 20% 5% 18%;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.event_card {
+    margin: 20% 10% 0% 10%;
+
+}
+
+.event_card_2 {
+    margin: 20% 10% 0% 10%;
+
+}
+
+.head_container>img {
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+
+}
+
+.head_container_2>img {
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+
+}
+
+.head_container>h3 {
+    padding: 4% 15% 4% 15%;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    margin: 0% 30%;
+    font-family: sans-serif;
+
+}
+
+.head_container_2>h3 {
+    padding: 4% 15% 4% 15%;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    margin: 0% 25%;
+    font-family: sans-serif;
+
+}
+
+.para_container>h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10% 0%;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.para_container_2>h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 10% 0%;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.para_container>p {
+    /* font-family: flood-std; */
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.7rem;
+    font-family: sans-serif;
+}
+
+.para_container_2>p {
+    /* font-family: flood-std; */
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.7rem;
+    font-family: sans-serif;
+}
+
+
+
+.latest_news {
+    background-color: white;
+    color: black;
+    padding: 3% 10%;
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+    margin-top: -8%;
+
+}
+
+/* 8th section starts here */
+
+.subscribe_container {
+    background-color: #C1F7D5;
+    padding-bottom: 5%;
+
+}
+
+.subscribe_container_box>p {
+    color: #354463;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10% 5% 10% 3%;
+}
+
+.subscribe_container_buttons {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 5% 5% 5% 5%;
+    grid-column-gap: 2%;
+}
+
+.subscribe_container_buttons>input {
+    padding: 8% 15% 8% 15%;
+    border-radius: 50px;
+    border: 0;
+}
+
+.subscribe_container_buttons>button {
+    color: #C1F7D5;
+    background-color: #354463;
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.3rem;
+}
+
+/* 9th section starts here */
+
+.footer_box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10% 0% 20% 0%;
+    margin: 10%;
+    gap: 5%;
+    grid-row-gap: 25%;
+
+}
+
+.about_green>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.contact_us>h3 {
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.contact_us>address {
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+
+.social_mdeia_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social_mdeia_links>a {
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+
+}
+
+.follow_us>h3 {
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+.learn_more_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn_more>h3 {
+    font-family: sans-serif;
+    margin-bottom: 5%;
+    font-size: 1.1rem;
+}
+
+.learn_more_links>a {
+    color: black;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+
+}
+
+
+/* footer heading starts here */
+
+.footer_heading {
+    padding: 20% 0% 20% 0%;
+
+}
+
+.footer_heading>p {
+
+    font-family: flood-std;
+    font-size: 3.5rem;
+    /* font-weight: 800; */
+    color: #354463;
+    text-align: end;
+    margin-right: 10%;
+
+}
+
+
+@media screen and (min-width:481px) {
+
+    .head-card {
+        width: 70%;
+        
+    }
+    .main-heading{
+        margin-left: 5%;
+        font-weight: 800;
+        color: #354463;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .anchor-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+    .button-card {
+        padding: 2.5% 15% 1% 10%;
+        display: inline-block;
+    }
+
+    .donate-button {
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 10% ;
+
+
+    }
+
+    /* 2nd container  starts line*/
+
+
+    .annie_image_card {
+        background-image: url(home/annie-spratt-135307-unsplash.png);
+        background-color: #354463;
+        width: 100%;
+        height: 55rem;
+        display: grid;
+        grid-template-columns: 55% 40%;
+
+    }
+
+
+
+    .caption_box {
+        order: 1;
+        margin-top: 33%;
+        font-size: 5rem;
+    }
+
+
+
+    .the_issue_box {
+        margin: 25% 20%;
+        padding: 0%;
+    }
+
+
+
+    .the_issue_box>p {
+
+        text-align: center;
+        font-size: 3rem;
+        color: #354463;
+        line-height: 4rem;
+        font-weight: 800;
+
+
+    }
+
+
+
+    .the_issue_box>a {
+        color: #354463;
+        padding-bottom: 10%;
+    }
+
+
+    .the_issue_button {
+        padding: 1% 3%;
+        margin: 0%;
+        left: 15%;
+        margin-top: -1%;
+        background-color: #354463;
+    }
+
+    /* 3rd container starts here */
+
+    .take_actions_heading {
+
+        padding: 1% 3%;
+        margin: 0%;
+        background-color: #354463;
+        left: 45%;
+        margin-top: -1.5%;
+
+    }
+
+    .take_actions_card_content {
+        display: flex;
+        padding: 0%;
+        padding-top: 0%;
+        margin-left: 9%;
+        margin-right: 11%;
+    }
+
+
+    .take_actions_card_content>div {
+        padding: 6% 3% 6% 3%;
+        font-size: 1.2rem;
+        color: #354463;
+
+
+    }
+
+    .take_actions_card_content>div>h2 {
+        font-size: 1.8rem;
+    }
+
+    /* 4th section starts here  */
+
+    .what_to_do_card_all_container {
+        display: flex;
+        margin-left: 6%;
+        margin-right: 13%;
+
+    }
+
+    .what_to_do_card_button>h1 {
+        padding: 1% 2.5%;
+        margin-left: 11%;
+        margin-bottom: 2.5%;
+        margin-top: 6%;
+
+    }
+
+    .what_to_do_card_button>p {
+        margin: 0% 10% 0% 10.5%;
+        font-size: 3rem;
+        line-height: 4rem;
+        text-align: start;
+
+
+    }
+
+    .what_to_do_card_container {
+        margin-top: 5%;
+        margin: 5%;
+        padding-bottom: 2.5%;
+
+
+
+    }
+
+
+    .tree_planting>p {
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        color: #354463;
+        margin-right: 15%;
+    }
+
+    .tree_planting>h2 {
+        text-align: left;
+        margin-left: 10%;
+        font-size: 2.2rem;
+        color: #354463;
+    }
+
+    .tree_planting>.planting_tree {
+        width: 105%;
+        height: 30vh;
+
+    }
+
+    .tree_planting>img {
+        width: 100%;
+        margin-top: -35%;
+    }
+
+    .tree_planting_button {
+        margin: 7% 0% 0% 9%;
+        font-size: 1.2rem;
+
+
+    }
+
+
+    /* 5th container starts here */
+
+    .did_you_know_card {
+        background-image: url(home/did-you-know-background.png);
+        width: 100%;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 50% 40%;
+        background-position-y: 0%;
+        padding-bottom: 20%;
+
+    }
+
+    .did_you_know_container_all{
+        margin-right: 7.5%;
+    }
+
+    .did_you_know_card_head>h3 {
+        font-family: flood-std;
+        font-size: 5rem;
+        color: white;
+        padding: 20% 0% 15% 21%;
+
+    }
+
+    .take_action_today_button>button {
+        padding: 2% 5%;
+        margin-left: 21%;
+
+    }
+
+    .did_you_know_container {
+        margin: 25% 10% -20% 10%;
+    }
+
+    .cards_1_container {
+        padding: 10%;
+    }
+
+    .cards_1_container>h3 {
+        margin: 10% 5% 0% 10%;
+        font-size: 3rem;
+        color: #354463;
+    }
+
+
+    .cards_1_container>p {
+        margin-left: 10%;
+        margin-top: 1%;
+        font-size: 1.3rem;
+        color: #354463;
+        line-height: 2rem;
+
+    }
+
+    .did_you_know_card_button {
+        background-color: #354463;
+        padding: 1% 1%;
+        left: 57%;
+        font-size: 1.2rem;
+        margin-top: -1.5%;
+    }
+
+    .icons_cards {
+        width: 88%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        margin-top: 40%;
+        border-radius: 100%;
+    }
+
+
+
+    /* 7th section starts here */
+
+    .stories_card_container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 10%;
+        margin-left: -10%;
+        margin-right: 6%;
+
+    }
+
+    .stories_card {
+        margin: 0%;
+
+
+    }
+
+    .stories_card>img {
+        width: 80%;
+        height: 100%;
+        margin: 0%;
+        order: 1;
+    }
+
+    .stories_card>h3 {
+        padding: 1% 3%;
+        position: absolute;
+        margin: -1% 0% 0% 5%;
+        background-color: #354463;
+
+
+    }
+
+    .blue_container {
+        padding: 6%;
+        order: -1;
+        margin-top: 17%;
+        margin-bottom: 10%;
+        margin-left: 28%;
+        position: relative;
+        left: 7rem;
+    }
+
+    .content>p {
+        margin: 0%;
+        text-align: start;
+    }
+
+
+    .tree_planting_button {
+        margin: 7% 0% 0% 9%;
+        font-size: 1.2rem;
+
+
+    }
+
+    .content>h3 {
+        margin-top: 10%;
+        text-align: start;
+    }
+
+    .stories_card_button>button {
+        padding: 1% 2%;
+        margin-left: 11.5%;
+        margin-top: -10%;
+
+
+    }
+
+
+    /* 7th section starts hers */
+
+    .events_container {
+        margin-top: 5%;
+    }
+
+    .event_card_box {
+
+        display: grid;
+        grid-template-columns: 55% 40%;
+    }
+
+    .event_header {
+        text-align: start;
+        padding: 8% 0% 0% 10%;
+        font-size: 6rem;
+    }
+
+    .event_card {
+        margin: 0%;
+        margin-right: 10%;
+    }
+
+    .head_container>img {
+        width: 70%;
+        height: 90%;
+        margin: 0%;
+        margin-left: 20%;
+        margin-top: 5%;
+
+    }
+
+    .head_container>h3 {
+        padding: 1.5% 5%;
+        margin-left: 100%;
+        position: relative;
+        top: 6.5rem;
+
+
+    }
+
+    .para_container>h1 {
+        margin: 0%;
+        font-size: 3rem;
+        margin-top: 40%;
+        text-align: start;
+        line-height: 4.5rem;
+    }
+
+    .para_container>p {
+
+        padding: 10% 0% 0% 0%;
+        text-align: start;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .event_card_button {
+
+        padding: 4% 15% 4% 15%;
+        background-color: #C1F7D5;
+        color: #354463;
+        border: none;
+        margin: 5% 20% 5% 10%;
+        border-radius: 25px;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .event_card_box_2 {
+        display: grid;
+        grid-template-columns: 40% 55%;
+
+    }
+
+    .event_card_2 {
+        margin-top: 10%;
+        margin-left: 7%;
+        margin-right: 20%;
+
+    }
+
+    .head_container_2 {
+        order: 1;
+
+    }
+
+    .head_container_2>h3 {
+        right: 91%;
+        padding: 1.8% 4%;
+
+    }
+
+    .para_container_2 {
+        margin-top: 5%;
+    }
+
+    .para_container_2>h3 {
+
+        padding: 2% 4%;
+        background-color: aliceblue;
+        display: inline-block;
+        margin-bottom: 10%;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+
+
+
+    }
+
+    .para_container_2>h1 {
+        font-size: 3rem;
+        color: white;
+        font-weight: 700;
+        font-family: sans-serif;
+        line-height: 4.5rem;
+        text-align: start;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    .para_container_2>p {
+        color: white;
+        font-family: sans-serif;
+        padding: 5% 0% 0% 0%;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: start;
+        margin-left: 10%;
+
+    }
+
+    .head_container_2>img {
+        width: 100%;
+        height: 90%;
+        margin-left: 20%;
+    }
+
+
+
+    /* 8th section starts here */
+
+    .subscribe_container_box {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+
+    .subscribe_container {
+        padding: 0%;
+    }
+
+
+
+    .subscribe_container_box>p {
+        margin: 0% 0% 0% 15%;
+        text-align: center;
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+
+    .subscribe_container_buttons {
+        margin: 15%;
+        grid-column-gap: 7%;
+        margin-right: 35%;
+    }
+
+    .subscribe_container_buttons>input {
+        padding: 1% 23% 0% 30;
+    }
+
+    /* 9th section :start here */
+
+    .final_footer {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        margin: 5% 12% 5% 4%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .footer_box {
+        display: flex;
+        padding: 0%;
+        margin: 0%;
+        color: #354463;
+    }
+
+    .footer_box>div {
+        margin-left: 8%;
+    }
+
+    .about_green>p {
+        font-size: 1.8rem;
+        color: #354463;
+    }
+
+    .contact_us>address {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.8rem;
+        color: #354463;
+    }
+
+    .social_mdeia_links {
+        margin-top: 3%;
+    }
+
+    .social_mdeia_links>a {
+
+        text-decoration: none;
+        line-height: 1.7rem;
+        color: #354463;
+    }
+
+
+
+    .learn_more_links>a {
+        text-decoration: none;
+        line-height: 1.8rem;
+        color: #354463;
+    }
+
+
+
+
+    .footer_heading {
+        padding: 0%;
+        margin-right: 10%;
+    }
+
+}
