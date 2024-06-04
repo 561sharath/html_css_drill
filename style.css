@@ -809,7 +809,7 @@ hr{
 @media screen and (min-width:481px) {
 
     .head-card {
-        width: 70%;
+        width: 80%;
         
     }
     .main-heading{
@@ -820,28 +820,34 @@ hr{
 
     .header-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .anchor-list {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-top: 10%;
-
-
+        
     }
+    .anchor-list > a{
+        color: #354463;
+        
+
+        
+    }
+    
 
     .button-card {
-        padding: 2.5% 15% 1% 10%;
+        padding: 2.5% 15% 1% 5%;
         display: inline-block;
     }
 
     .donate-button {
         font-size: 1.5rem;
         font-weight: 600;
-        padding: 10% ;
+        padding:10% 15% 10% 15%;
 
 
     }
